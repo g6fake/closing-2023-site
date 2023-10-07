@@ -1,0 +1,21 @@
+.header {
+  height: 68px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  box-sizing: border-box;
+  background-color: #f0f0f07a;
+  // justify-content: space-between;
+  justify-content: center;
+  position: fixed;
+  z-index: 5;
+  backdrop-filter: blur(12px);
+  img {
+    width: 64px;
+  }
+  .menu {
+    display: flex;
+    gap: 0 8px;
+  }
+}
